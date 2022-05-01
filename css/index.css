@@ -87,15 +87,10 @@ body{
 
 /* ----body----- */
 
-.index__body{
-    width: 100vw;
-}
-
 .index__section{
     background-image: url(../images/torre.jpg);
     background-size: cover;
     background-attachment: fixed;
-    margin-right: 20px;
 }
 
 .section__div1{
@@ -153,8 +148,6 @@ body{
 
 .juego__body{
     background-color: gainsboro;
-    width: 100vw;
-
 }
 
 .juego__section{ 
@@ -201,10 +194,6 @@ body{
 .juego__p p{
     font-size: 4rem;
     /* padding: 0 5% 0 5%; */
-}
-
-.noticias__body{
-    width: 100%;
 }
 
 
@@ -466,8 +455,8 @@ body{
 
 .footer{
     background-color: rgb(126, 126, 126);
-    /* margin-left: -7.5px;
-    margin-right: -7.5px; */
+    margin-left: -7.5px;
+    margin-right: -7.5px;
 } 
 
 .footer__img{
