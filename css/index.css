@@ -158,79 +158,25 @@ body{
 }
 
 .juego__section{ 
-    /* display: grid;
-    grid-template-rows: repeat(3,32%);
-    grid-template-areas: 
-    "iraz raz raz raz raz"
-    "prof prof prof prof iprof"
-    "iclas clas clas clas clas";
-    overflow: hidden;
-    margin: 1%;
-    grid-gap: 1%; */
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    /* grid-area: juego;
-    background-color: gainsboro;
-    border-radius: 10px; */
 }
 
-/* .juego__img1{
-    width: 100%;
-    height: 100%;
-    grid-area: iraz;
-}
-
-.juego__img2{
-    width: 100%;
-    height: 100%;
-    grid-area: iprof;
-}
-
-.juego__img3{
-    width: 100%;
-    height: 100%;
-    grid-area: iclas;
-} */
-
-/* .juego__section img {
-    width: 100px;
-} */
 
 .juego__art1{
-    /* width: 100%;
-    flex-wrap: nowrap;
-    overflow: hidden; */
     border-bottom: solid #131c36;
-    /* border-width: 10px;
-    grid-area: raz; */
+
 }
 
 .juego__art2{
-    /* width: 100%;
-    height: auto;
-    flex-wrap: nowrap;
-    overflow: hidden; */
     border-bottom: solid #131c36;
-    /* border-width: 10px;
-    grid-area: prof; */
+
 }
 
 .juego__art3{
-    /* width: 100%;
-    height: auto;
-    flex-wrap: nowrap;
-    overflow: hidden; */
     border-bottom: solid #131c36;
-    /* border-width: 10px;
-    grid-area: clas; */
 }
 
 .juego__div{
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    height: 100%;
-    width: 100%; */
     background: linear-gradient(#131c36,white);
 }
 
@@ -258,76 +204,57 @@ body{
 }
 
 .noticias__body{
-    display: grid;
-    grid-template-areas: 
-    "head"
-    "noti"
-    "foot";
-    height: 100vh;
+    width: 100%;
 }
 
 
 .noticias__section{
-    grid-area: noti;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-areas:
-    ". buho oto ."
-    ".  buho act  ."
-    ".  map map .";
-    width: auto;
-    grid-gap: 10px;
-    background-image: linear-gradient(90deg, #1e3c72 0%, #cc6235 99%);
-    height: 100vh;
-    background-size: cover;
-    padding: 15px;
+    background: linear-gradient(180deg, #19315e 0%, #050404 50%, #4b2414ec 100%);
 }
 
 .section__art1{
-    grid-area: buho;
     background-image: url(../images/buho.jpg);
-    background-size: cover;
+    background-size: cover;    
+    height: 70vh;
     border-top-left-radius: 50px;
     display: flex;
-    align-items: center;
-    justify-content: end;
     flex-direction: column;
+    justify-content: end;
     border: solid black 1px;
+    background-position: center;
 }
 
 .section__art2{
-    grid-area: oto;
     background-image: url(../images/rebajas.jpg);
     background-size: cover;
+    border: solid black 1px;
+    height: 35vh;
     display: flex;
     flex-direction: column;
     background-position: center;
-    align-items: center;
     justify-content: end;
     border-top-right-radius: 50px;
-    border: solid black 1px;
 }
 
 .section__art3{
-    grid-area: act;
     background-image: url(../images/update.jpg);
     background-size: cover;
+    border: solid black 1px;
+    height: 35vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: end;
-    border: solid black 1px;
+    background-position: center;
 }
 
 .section__art4{
-    grid-area: map;
     background-image: url(../images/mapa.jpg);
     background-size: cover;
+    height: 30vh;
     background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: end;
-    align-items: center;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     border: solid black 1px;
@@ -338,7 +265,6 @@ body{
     color: white;
     text-decoration: underline;
     border-radius: 20px;
-    margin: 5px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
 }
@@ -348,7 +274,6 @@ body{
     color: yellow;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
-    margin-bottom: 1%;
 }
 
 .section__art1:hover{
@@ -541,8 +466,8 @@ body{
 
 .footer{
     background-color: rgb(126, 126, 126);
-    margin-left: -7.5px;
-    margin-right: -7.5px;
+    /* margin-left: -7.5px;
+    margin-right: -7.5px; */
 } 
 
 .footer__img{

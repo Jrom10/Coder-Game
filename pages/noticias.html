@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../css/index.css">
 </head>
 <body>
-<div class="noticias__body">
+<div class="noticias__body container-fluid">
     <header class="header row sticky-top">
         <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container-fluid">
@@ -53,24 +53,28 @@
             </div>
         </nav>
     </header>
-    <section class="noticias__section">
-        <article class="section__art1">
-            <a href=""><h2 class="art__titulo">Correcciones en vivo</h2></a>
-            <p class="art__p">Correcciones en vivo del 21 de marzo de 2022</p>
-        </article>
-        <article class="section__art2">
-            <a href=""><h2 class="art__titulo">Rebajas de Otoño</h2></a>
-            <p class="art__p">¡Aprovecha nuestras rebajas por tiempo limitado!</p>
-        </article>
-        <article class="section__art3">
-            <a href=""><h2 class="art__titulo">Detalles de ultima actualizacion</h2></a>
-            <p class="art__p">Conoce el detalle de la expansion definitiva</p>
-        </article>
-        <article class="section__art4">
-            <a href=""><h2 class="art__titulo">Adentrate en el mundo de Mecha</h2></a>
-            <p class="art__p">Descubre todas las zonas secretas y los misterios que esconden</p>
-        </article>        
-    </section> <!--Desde el titulo se linkearia a la pagina de cada noticia-->
+    <main class="noticias__section row">
+        <div class="row offset-lg-2 col-lg-8 offset-sm-2 col-sm-8 p-5">
+            <article class="section__art1 col-lg-6">
+                <a href=""><h2 class="art__titulo">Correcciones en vivo</h2></a>
+                <p class="art__p">Correcciones en vivo del 21 de marzo de 2022</p>
+            </article>
+            <div class="row col-lg-6 col-sm-6 g-0">
+                <article class="section__art2 col-lg-12 col-sm-12">
+                    <a href=""><h2 class="art__titulo">Rebajas de Otoño</h2></a>
+                    <p class="art__p">¡Aprovecha nuestras rebajas por tiempo limitado!</p>
+                </article>
+                <article class="section__art3 col-lg-12 col-sm-12">
+                    <a href=""><h2 class="art__titulo">Detalles de ultima actualizacion</h2></a>
+                    <p class="art__p">Conoce el detalle de la expansion definitiva</p>
+                </article>
+            </div>
+            <article class="section__art4 col-lg-12 col-sm-12">
+                <a href=""><h2 class="art__titulo">Adentrate en el mundo de Mecha</h2></a>
+                <p class="art__p">Descubre todas las zonas secretas y los misterios que esconden</p>
+            </article>
+        </div>        
+    </main> <!--Desde el titulo se linkearia a la pagina de cada noticia-->
     <footer class="footer container-fluid row">
         <div class="col-lg-12 d-flex justify-content-center">
             <a href="../index.html">
