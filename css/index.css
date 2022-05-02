@@ -147,7 +147,7 @@ body{
 
 
 .juego__body{
-    background-color: gainsboro;
+    background-color: #000000;
 }
 
 .juego__section{ 
@@ -155,17 +155,7 @@ body{
 }
 
 
-.juego__art1{
-    border-bottom: solid #131c36;
-
-}
-
-.juego__art2{
-    border-bottom: solid #131c36;
-
-}
-
-.juego__art3{
+.juego__art{
     border-bottom: solid #131c36;
 }
 
@@ -195,7 +185,6 @@ body{
     font-size: 4rem;
     /* padding: 0 5% 0 5%; */
 }
-
 
 .noticias__section{
     background: linear-gradient(180deg, #19315e 0%, #050404 50%, #4b2414ec 100%);
@@ -278,12 +267,8 @@ body{
     border: solid yellow 1px;   
 }
 
-.foros__body{
-    width: 100vw;
-}
-
 .foros{
-    background-color: rgba(201, 106, 51, 0.9);
+    background-color: rgba(0, 0, 0, 0.9);
 }
 
 .foros__img{
@@ -294,7 +279,7 @@ body{
     border-radius: 15px;
     border: solid white 1px;
     background-color: #131c36;
-    margin-right: 5px;
+    /* margin-right: 5px; */
     margin-bottom: 10px;
 }
 
@@ -302,7 +287,7 @@ body{
     border-radius: 15px;
     border: solid white 1px;
     background-color: #131c36;
-    margin-left: 5px;
+    /* margin-left: 5px; */
     margin-bottom: 10px;
 }
 
@@ -341,9 +326,6 @@ body{
     font-weight: bold;
 }
 
-.tienda__body{
-    width: 100vw;
-}
 
 .tienda{
     background-color: rgb(29, 29, 29);
