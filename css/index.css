@@ -36,7 +36,7 @@ body{
 }
 
 .titulo__mini{
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .fondo__menu{
@@ -85,7 +85,7 @@ body{
 }
 
 
-/* ----body----- */
+/* ----index----- */
 
 .index__section{
     background-image: url(../images/torre.jpg);
@@ -123,7 +123,7 @@ body{
     border-style: double;
     width: 40%;
     text-align: center;
-    overflow: hidden;
+    overflow:hidden;
     text-decoration: none;
 }
 
@@ -134,17 +134,16 @@ body{
 
 .aside{
     background-color: #131c36;
-    margin-left: -7.5px;
-    margin-right: -7.5px;
     padding: 10px;
 }
 
 .aside h3{
-    font-size: medium;
+    font-size: x-large;
     color: aliceblue;
     margin-right: 50px;
 }
 
+/* ----juego----- */
 
 .juego__body{
     background-color: #000000;
@@ -153,7 +152,6 @@ body{
 .juego__section{ 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
 
 .juego__art{
     border-bottom: solid #131c36;
@@ -185,6 +183,8 @@ body{
     font-size: 4rem;
     /* padding: 0 5% 0 5%; */
 }
+
+/* ----Noticias----- */
 
 .noticias__section{
     background: linear-gradient(180deg, #19315e 0%, #050404 50%, #4b2414ec 100%);
@@ -267,6 +267,8 @@ body{
     border: solid yellow 1px;   
 }
 
+/* ----Foros----- */
+
 .foros{
     background-color: rgba(0, 0, 0, 0.9);
 }
@@ -326,6 +328,7 @@ body{
     font-weight: bold;
 }
 
+/* ----Tienda----- */
 
 .tienda{
     background-color: rgb(29, 29, 29);
@@ -389,6 +392,7 @@ body{
     font-size: 5rem;
 }
 
+/* ----Contacto----- */
 
 .contacto{
     display: grid;
@@ -462,37 +466,9 @@ body{
 }
 
 @media (max-width:450px){
-    /* .header nav > ul {
-        display: flex;
-        flex-direction: column;
-        width: 20vh;
-        list-style: none;
-    }
-    .header nav{
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-    } */
     .header__titulo{
         font-size: 3rem;
     }
-    /* .juego__section{ 
-        display: grid;
-        grid-template-rows: 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-        grid-template-areas: 
-        "iraz raz"
-        "prof iprof"
-        "iclas clas"; 
-    }
-    .tienda__div2{
-        grid-template-rows: repeat(2,1fr);
-        grid-template-columns: repeat(6,1fr);
-        grid-template-areas:
-        ". t1 t2 t3 ."
-        ". t4 t5 t6 .";
-        justify-items: center;
-    } */
     .tienda__h5{
         font-size: 2rem;
     }
@@ -514,5 +490,11 @@ body{
     }
     .foros__cate img{
         width: 25%;
+    }
+    .aside h3{
+        font-size:medium;
+    }
+    .section__div2 a{
+        width: auto;
     }
 }
