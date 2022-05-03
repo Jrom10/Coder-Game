@@ -91,6 +91,7 @@ body{
     background-image: url(../images/torre.jpg);
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
 }
 
 .section__div1{
