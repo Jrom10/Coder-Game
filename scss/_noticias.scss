@@ -18,48 +18,27 @@
 }
 
 .section__art2{
+    @extend .section__art1;
     background-image: url(../images/rebajas.jpg);
-    background-size: cover;
-    border: solid black 1px;
     height: 35vh;
-    display: flex;
-    flex-direction: column;
-    background-position: center;
-    justify-content: end;
     border-top-right-radius: 50px;
-    &:hover{
-        border: solid yellow 1px;
-    }
+    border-top-left-radius: 0;
 }
 
 .section__art3{
+    @extend .section__art1;
     background-image: url(../images/update.jpg);
-    background-size: cover;
-    border: solid black 1px;
     height: 35vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    background-position: center;
-    &:hover{
-        border: solid yellow 1px;
-    }
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
 }
 
 .section__art4{
+    @extend .section__art1;
     background-image: url(../images/mapa.jpg);
-    background-size: cover;
     height: 30vh;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
-    border: solid black 1px;
-    &:hover{
-        border: solid yellow 1px;
-    }
 }
 
 .art__titulo{

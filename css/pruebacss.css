@@ -151,7 +151,7 @@ body {
 .noticias__section {
   background: linear-gradient(180deg, #19315e 0%, #050404 50%, #4b2414ec 100%); }
 
-.section__art1 {
+.section__art1, .section__art2, .section__art3, .section__art4 {
   background-image: url(../images/buho.jpg);
   background-size: cover;
   height: 70vh;
@@ -161,47 +161,26 @@ body {
   justify-content: end;
   border: solid black 1px;
   background-position: center; }
-  .section__art1:hover {
+  .section__art1:hover, .section__art2:hover, .section__art3:hover, .section__art4:hover {
     border: solid yellow 1px; }
 
 .section__art2 {
   background-image: url(../images/rebajas.jpg);
-  background-size: cover;
-  border: solid black 1px;
   height: 35vh;
-  display: flex;
-  flex-direction: column;
-  background-position: center;
-  justify-content: end;
-  border-top-right-radius: 50px; }
-  .section__art2:hover {
-    border: solid yellow 1px; }
+  border-top-right-radius: 50px;
+  border-top-left-radius: 0; }
 
 .section__art3 {
   background-image: url(../images/update.jpg);
-  background-size: cover;
-  border: solid black 1px;
   height: 35vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
-  background-position: center; }
-  .section__art3:hover {
-    border: solid yellow 1px; }
+  border-top-right-radius: 0;
+  border-top-left-radius: 0; }
 
 .section__art4 {
   background-image: url(../images/mapa.jpg);
-  background-size: cover;
   height: 30vh;
-  background-position: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
   border-bottom-left-radius: 50px;
-  border-bottom-right-radius: 50px;
-  border: solid black 1px; }
-  .section__art4:hover {
-    border: solid yellow 1px; }
+  border-bottom-right-radius: 50px; }
 
 .art__titulo {
   font-size: 3rem;
@@ -346,7 +325,7 @@ body {
     height: 70vh; }
   .tienda__h5 {
     font-size: 2rem; }
-  .section__art1 {
+  .section__art1, .section__art2, .section__art3, .section__art4 {
     border-top-left-radius: 50px;
     border-top-right-radius: 50px; }
   .section__art2 {
