@@ -330,7 +330,14 @@ body {
     border-top-left-radius: 50px;
     border-top-right-radius: 50px; }
   .section__art2 {
-    border-top-right-radius: 0; }
+    border-top-right-radius: 0;
+    border-top-left-radius: 0; }
+  .section__art3 {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0; }
+  .section__art4 {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0; }
   .section__div1 p {
     font-size: 3rem; }
   .section__div2 {
