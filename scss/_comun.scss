@@ -1,0 +1,97 @@
+$color-ppal: rgba(201, 106, 51, 0.9);
+
+@font-face{
+    font-family: lifecraft;
+    src: url(../font/LifeCraft_Font.ttf)
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: lifecraft;
+}
+
+.header{
+    background: linear-gradient(#131c36,rgb(6, 7, 8));
+        ul li &:hover ul{
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(6, 7, 8);
+        }
+}
+
+.header__titulo{
+    margin-bottom: 0;
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:$color-ppal;
+    text-shadow: 1px 1px 1px black;
+    margin-left: 5%;
+}
+
+.titulo__mini{
+    font-size: 2rem;
+}
+
+.fondo__menu{
+    background: linear-gradient(#131c36,rgb(6, 7, 8));
+}
+.nav__bot{
+    background-color: #131c36
+}
+
+.nav__juego{
+    border: solid 1px rgba(201, 106, 51, 0.9);
+    border-radius: 10px;
+    background: linear-gradient(#131c36,rgb(6, 7, 8));
+        a{
+            color: $color-ppal;
+            text-shadow: 1px 1px 1px black;
+            font-size: 20px;
+            border-radius: 10px;
+            &:hover{
+                color:$color-ppal;
+            }
+        }
+}
+
+.navi{
+    background: linear-gradient(#131c36,rgb(6, 7, 8));
+}
+
+.nav__color{
+    color: $color-ppal !important;
+    text-shadow: 1px 1px 1px black;
+    font-size: 30px;
+}
+
+.tit__nav{
+    background-color: whitesmoke;
+}
+
+.footer{
+    background-color: rgb(126, 126, 126);
+    margin-left: -7.5px;
+    margin-right: -7.5px;
+        a{
+            font-size: medium;
+            text-decoration: none;
+            list-style: none; 
+            display: flex;
+            justify-content: center;
+            color: white;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+        p{
+            padding-top: 10px;
+        }
+} 
+
+.footer__img{
+    width: 125px;
+}
