@@ -471,7 +471,7 @@ body{
         font-size: 3rem;
     }
     .index__section{
-        height: 60vh;
+        height:70vh;
     }
     .tienda__h5{
         font-size: 2rem;
@@ -496,6 +496,6 @@ body{
         font-size:medium;
     }
     .section__div2 a{
-        width: auto;
+        width: 40%;
     }
 }
