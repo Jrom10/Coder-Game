@@ -1,0 +1,35 @@
+.juego__body{
+    background-color: #000000;
+}
+
+.juego__section{ 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.juego__art{
+    border-bottom: solid #131c36;
+}
+
+.juego__div{
+    background: linear-gradient(#131c36,white);
+}
+
+.juego__h2{
+    width: 90%;
+    text-align: center;
+    h2{
+        border-bottom: double;
+        font-size: 5rem;
+        color: whitesmoke;
+    }
+}
+
+.juego__p{
+    color:#131c36;
+    text-shadow: 1px 1px 1px white;
+    width: 100%;
+    text-align: center;
+    p{
+        font-size: 4rem;
+    }
+}

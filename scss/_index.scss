@@ -1,0 +1,52 @@
+.index__section{
+    background-image: url(../images/torre.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.section__div1{
+    margin-top: 5%;
+}
+
+.section__div1 p{
+    font-size: 7rem;
+    text-align: center;
+    color: #131c36;
+    text-shadow: 1px 1px 1px white;
+} 
+
+.section__div2{
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-size: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: content-box;
+    a{
+        color:rgb(250, 247, 246);
+        text-shadow: 3px 3px 3px black;
+        background-color: #131c36;
+        border-radius: 10px;
+        border-style: double;
+        width: 40%;
+        text-align: center;
+        overflow:hidden;
+        text-decoration: none;
+        &:hover{
+            font-weight: bold;
+            font-size: 90%;
+        }
+    }
+}
+
+.aside{
+    background-color: #131c36;
+    padding: 10px;
+    h3{
+        font-size: x-large;
+        color: aliceblue;
+        margin-right: 50px;
+    }
+}

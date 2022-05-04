@@ -1,0 +1,79 @@
+.noticias__section{
+    background: linear-gradient(180deg, #19315e 0%, #050404 50%, #4b2414ec 100%);
+}
+
+.section__art1{
+    background-image: url(../images/buho.jpg);
+    background-size: cover;    
+    height: 70vh;
+    border-top-left-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border: solid black 1px;
+    background-position: center;
+    &:hover{
+        border: solid yellow 1px;
+    }
+}
+
+.section__art2{
+    background-image: url(../images/rebajas.jpg);
+    background-size: cover;
+    border: solid black 1px;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+    justify-content: end;
+    border-top-right-radius: 50px;
+    &:hover{
+        border: solid yellow 1px;
+    }
+}
+
+.section__art3{
+    background-image: url(../images/update.jpg);
+    background-size: cover;
+    border: solid black 1px;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background-position: center;
+    &:hover{
+        border: solid yellow 1px;
+    }
+}
+
+.section__art4{
+    background-image: url(../images/mapa.jpg);
+    background-size: cover;
+    height: 30vh;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: solid black 1px;
+    &:hover{
+        border: solid yellow 1px;
+    }
+}
+
+.art__titulo{
+    font-size: 3rem;
+    color: white;
+    text-decoration: underline;
+    border-radius: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.art__p{
+    font-size: 2rem;
+    color: yellow;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}

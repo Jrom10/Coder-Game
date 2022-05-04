@@ -1,0 +1,52 @@
+.foros{
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.foros__img{
+    margin-bottom: 10px;
+}
+
+.foros__cate{
+    border-radius: 15px;
+    border: solid white 1px;
+    background-color: #131c36;
+    /* margin-right: 5px; */
+    margin-bottom: 10px;
+}
+
+.foros__desta{
+    border-radius: 15px;
+    border: solid white 1px;
+    background-color: #131c36;
+    /* margin-left: 5px; */
+    margin-bottom: 10px;
+}
+
+.foros__titulo{
+    color: white;
+    font-size: 3rem;
+    border-bottom: solid white 1px;
+}
+
+.foros__div{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    p{
+        font-size: 25px;
+        border-bottom: solid white 1px;
+        color: white;
+    }
+}   
+
+.foros__art{
+    font-size: 3rem;
+    border:white 1px;
+    color: white; 
+    img{
+        width: 150px;
+    }
+    p{
+        &:hover{
+            font-weight: bold;
+        }
+    }
+}

@@ -1,0 +1,41 @@
+@media (max-width:600px){
+    .header__titulo{
+        font-size: 3rem;
+    }
+    .index__section{
+        height:70vh;
+    }
+    .tienda__h5{
+        font-size: 2rem;
+    }
+    .section__art1{
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+    }
+    .section__art2{
+        border-top-right-radius: 0;
+    }
+    .section__div1{
+        p{
+            font-size: 3rem;
+        }
+    }
+    .section__div2{
+        font-size: 2rem;
+    }
+    .foros__cate{
+        img{
+            width: 75%;
+        }
+    }
+    .aside{
+        h3{
+            font-size:medium;
+        }
+    }
+    .section__div2{
+        a{
+            width: 40%;
+        }
+    }
+}
