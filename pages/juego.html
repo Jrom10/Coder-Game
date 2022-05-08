@@ -33,9 +33,10 @@
                                     Juego
                                     </a>
                                     <ul class="dropdown-menu nav__juego" aria-labelledby="offcanvasNavbarDropdown">
-                                        <li><a class="dropdown-item" href="../pages/juego.html#Razas">Razas</a></li>
-                                        <li><a class="dropdown-item" href="../pages/juego.html#Profesiones">Profesiones</a></li>
-                                        <li><a class="dropdown-item" href="../pages/juego.html#Clasificaciones">Clasificaciones</a></li>
+                                        <li><a class="dropdown-item" href="../pages/juego.html#razas">Razas</a></li>
+                                        <li><a class="dropdown-item" href="../pages/juego.html#clases">Clases</a></li>
+                                        <li><a class="dropdown-item" href="../pages/juego.html#profesiones">Profesiones</a></li>
+                                        <li><a class="dropdown-item" href="../pages/juego.html#clasificaciones">Clasificaciones</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item">
@@ -55,10 +56,10 @@
         </header>
         <main class="p-3 row">
             <div class="card col-lg-8 offset-lg-2 mb-2 g-0">
-                <div class="card-header d-flex flex-column align-items-center fs-1 raza__header">
+                <div id="razas" class="card-header d-flex flex-column align-items-center fs-1 raza__header">
                     RAZAS
                 </div>
-                <div class="card">
+                <div class="card juego__font">
                     <div class="card-header raza__nav bg-secondary">
                         <ul class="nav nav-tabs card-header-tabs justify-content-evenly fs-3" id="myTab" role="tablist">
                             <li class="nav-item" role="presentation">
@@ -127,17 +128,17 @@
                 </div>
             </div>
             <div class="card col-lg-8 offset-lg-2 mb-2 g-0">
-                <div class="card-header d-flex flex-column align-items-center fs-1 raza__header">
+                <div id="clases" class="card-header d-flex flex-column align-items-center fs-1 raza__header">
                     CLASES
                 </div>
-                <div class="accordion fs-3" id="accordionPanelsStayOpenExample">
+                <div class="accordion fs-3 juego__font" id="accordionPanelsStayOpenExample">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                            <button class="accordion-button fs-2" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                            <button class="accordion-button  collapsed fs-2 bg-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
                             Guerrero
                         </button>
                         </h2>
-                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show bg-dark text-light" aria-labelledby="panelsStayOpen-headingOne">
                             <div class="accordion-body">
                                 Los guerreros se equipan con cuidado para el combate y se enfrentan a sus enemigos de frente, dejando que los ataques resbalen contra su pesada armadura. Usan diversas tácticas de combate y una gran variedad de tipos de armas para proteger a los combatientes menos hábiles. Los guerreros deben controlar cuidadosamente su ira (el poder detrás de sus ataques más fuertes) para maximizar su efectividad en el combate.
                             </div>
@@ -145,85 +146,85 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                            <button class="accordion-button collapsed fs-2 bg-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
                             Paladin
                         </button>
                         </h2>
-                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingTwo">
+                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse show bg-dark text-light" aria-labelledby="panelsStayOpen-headingTwo">
                             <div class="accordion-body">
-                                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                Los paladines se colocan justo delante de sus enemigos, confiando en su pesada armadura y la sanación para poder sobrevivir a una lluvia de ataques. Ya sea con enormes escudos o con aplastantes armas a dos manos, los paladines pueden aguantar zarpas y espadas de sus compañeros más débiles, pero deben usar la magia sanadora con cuidado para asegurarse de que se mantienen en pie.
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                            Accordion Item #1
+                            <button class="accordion-button collapsed fs-2 bg-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                            Cazador
                         </button>
                         </h2>
-                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingThree">
+                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse show bg-dark text-light" aria-labelledby="panelsStayOpen-headingThree">
                             <div class="accordion-body">
-                                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                Los cazadores luchan contra sus enemigos a distancia o de cerca y ordenan a sus mascotas que ataquen mientras preparan sus flechas, disparan sus armas de fuego o blanden sus armas de asta. Si bien sus armas son efectivas a corta y larga distancia, los cazadores son también extremadamente ágiles. Son capaces de evadir o entorpecer a sus enemigos para controlar el espacio de combate.
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="panelsStayOpen-headingFour">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
-                            Accordion Item #1
+                            <button class="accordion-button collapsed fs-2 bg-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                            Picaro
                         </button>
                         </h2>
-                        <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingFour">
+                        <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse show bg-dark text-light" aria-labelledby="panelsStayOpen-headingFour">
                             <div class="accordion-body">
-                                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                Los pícaros a menudo inician sus batallas entre las sombras, comenzando con sanguinarios golpes cuerpo a cuerpo. En batallas largas, usan ataques sucesivos, cuidadosamente seleccionados para preparar al enemigo para el golpe final. Los pícaros deben tener especial cuidado al seleccionar a sus objetivos para no malgastar sus ataques de combo y deben saber cuándo esconderse o huir si la batalla se vuelve contra ellos. 
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="panelsStayOpen-headingFive">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
-                            Accordion Item #1
+                            <button class="accordion-button collapsed fs-2 bg-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
+                            Sacerdote
                         </button>
                         </h2>
-                        <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingFive">
+                        <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse show bg-dark text-light" aria-labelledby="panelsStayOpen-headingFive">
                             <div class="accordion-body">
-                                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                Los sacerdotes usan poderosa magia de sanación para asegurarse de que tanto ellos como sus compañeros no son derribados. También controlan poderosos hechizos ofensivos a distancia, pero pueden verse sobrepasados por los enemigos debido a su fragilidad física y a su ligera armadura. Los sacerdotes más experimentados combinan el uso de sus hechizos ofensivos y de control con la importancia de mantener vivo al resto del grupo.
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="panelsStayOpen-headingSix">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false" aria-controls="panelsStayOpen-collapseSix">
-                            Accordion Item #1
+                            <button class="accordion-button collapsed fs-2 bg-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false" aria-controls="panelsStayOpen-collapseSix">
+                            Mago
                         </button>
                         </h2>
-                        <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingSix">
+                        <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse show bg-dark text-light" aria-labelledby="panelsStayOpen-headingSix">
                             <div class="accordion-body">
-                                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                Los magos destruyen a sus enemigos con encantamientos arcanos. Aunque controlan poderosos hechizos ofensivos, los magos son frágiles y su armadura es ligera, lo que los hace particularmente vulnerables a los ataques a corta distancia. Los magos sabios usan sus hechizos con cuidado para mantener a sus enemigos a distancia o retenerlos en el lugar.
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="panelsStayOpen-headingSeven">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="false" aria-controls="panelsStayOpen-collapseSeven">
-                            Accordion Item #1
+                            <button class="accordion-button collapsed fs-2 bg-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="false" aria-controls="panelsStayOpen-collapseSeven">
+                            Druida
                         </button>
                         </h2>
-                        <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingSeven">
+                        <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse show bg-dark text-light" aria-labelledby="panelsStayOpen-headingSeven">
                             <div class="accordion-body">
-                                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                Los druidas poseen una gran variedad de estilos de combate. Pueden llevar a cabo todos los roles: sanación, tanque, daño cuerpo a cuerpo y daño a distancia. Es vital que los druidas adopten la forma adecuada para cada situación ya que cada forma conlleva un propósito diferente.
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="panelsStayOpen-headingEight">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseEight" aria-expanded="false" aria-controls="panelsStayOpen-collapseEight">
-                            Accordion Item #1
+                            <button class="accordion-button collapsed fs-2 bg-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseEight" aria-expanded="false" aria-controls="panelsStayOpen-collapseEight">
+                            Chaman
                         </button>
                         </h2>
-                        <div id="panelsStayOpen-collapseEight" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingEight">
+                        <div id="panelsStayOpen-collapseEight" class="accordion-collapse collapse show bg-dark text-light" aria-labelledby="panelsStayOpen-headingEight">
                             <div class="accordion-body">
-                                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                Durante el combate, el chamán coloca totems de control y daño en el suelo para maximizar su efectividad y ponerle las cosas más difíciles a los enemigos Los chamanes son lo suficientemente versátiles para luchar contra los enemigos de cerca o a distancia, pero los chamanes sabios eligen su camino de ataque basado en los puntos fuertes y débiles de sus enemigos.
                             </div>
                         </div>
                     </div>
@@ -239,43 +240,76 @@
                         </div>
                     </div>
                     <div class="col-md-2 col-lg-2">
-                        <img src="../images/razas.jpg" class="img-fluid rounded-start-2" alt="...">
+                        <img src="../images/profesiones.jpg" class="img-fluid rounded-start-2" alt="...">
                     </div>
                 </div>
             </div>
-            <div class="card mb-2 col-lg-8 offset-lg-2 border-dark g-0">
-                <div class="row g-0">
-                    <div class="col-md-2 col-lg-2">
-                        <img src="../images/razas.jpg" class="img-fluid rounded-start-2" alt="...">
-                    </div>
-                    <div class="col-md-10 col-lg-10">
-                        <div class="card-body d-flex flex-column align-items-center">
-                            <h5 class="card-title">CLASIFICACIONES</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                        </div>
-                    </div>
+            <div class="card col-lg-8 offset-lg-2 mb-2 g-0">
+                <div id="clasificaciones" class="card-header d-flex flex-column align-items-center fs-1 raza__header">
+                    CLASIFICACIONES
                 </div>
+                <table class="table table-dark table-striped fs-3 juego__font">
+                    <thead>
+                        <tr>
+                            <th scope="col">Posicion#</th>
+                            <th scope="col">Tier/Rating</th>
+                            <th scope="col">Jugador</th>
+                            <th scope="col">V/D</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>2865</td>
+                            <td>Messi</td>
+                            <td>126/8</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>2830</td>
+                            <td>El bicho</td>
+                            <td>160/34</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>2790</td>
+                            <td>Coder</td>
+                            <td>110/20</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">4</th>
+                            <td>2770</td>
+                            <td>Mbappe</td>
+                            <td>108/24</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">5</th>
+                            <td>2768</td>
+                            <td>Ney</td>
+                            <td>110/25</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">6</th>
+                            <td>2740</td>
+                            <td>Sane</td>
+                            <td>205/91</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">7</th>
+                            <td>2599</td>
+                            <td>Modric</td>
+                            <td>158/60</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">8</th>
+                            <td>2410</td>
+                            <td>Soldadios</td>
+                            <td>89/10</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
-            <div class="card mb-2 col-lg-8 offset-lg-2 border-dark g-0">
-                    <div class="row g-0">
-                        <div class="col-md-10 col-lg-10">
-                            <div class="card-body d-flex flex-column align-items-center">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                        </div>
-                        <div class="col-md-2 col-lg-2">
-                            <img src="../images/razas.jpg" class="img-fluid rounded-start-2" alt="...">
-                        </div>
-                    </div>
-            </div>
-
-
-
-
-
+            
         </main>
         <!-- <main class="juego__section row">
             <article class="juego__art col-lg-12 col-12 row">

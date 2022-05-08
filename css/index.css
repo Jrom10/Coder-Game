@@ -159,6 +159,7 @@ body{
     color:#050404;
 }
 
+
 .juego__raza{
     border: solid 1px white;
 
@@ -174,7 +175,7 @@ body{
     width: 15%;
 }
 
-.juego__section{ 
+.juego__font{ 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
