@@ -150,13 +150,28 @@ body{
     background-color: #030318;
 }
 
-.juego__card p{
-    font-size: 3rem;
-    height:100% ;
+.raza__header{
+    color:#cc6235;
+    background-color: #030318;
 }
 
-.juego__card img{
-    width: 20%;
+.raza__nav{
+    color:#050404;
+}
+
+.juego__raza{
+    border: solid 1px white;
+
+}
+
+.raza__card p{
+    font-size: 2.5rem;
+    color:white;
+    
+}
+
+.raza__card img{
+    width: 15%;
 }
 
 .juego__section{ 
@@ -507,10 +522,13 @@ body{
     .section__div2 a{
         width: 40%;
     }
-    .juego__card img{
+    .raza__card img{
         width: 40%;
     }
-    .juego__card p {
+    .raza__card p {
         font-size: 2rem;
+    }
+    .raza__nav a{
+        font-size: x-small;
     }
 }   
