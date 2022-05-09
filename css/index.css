@@ -94,10 +94,20 @@ body{
     background-position: center;
 }
 
+.index__modal{
+    color: white;
+    background-color: #030318; 
+}
+.modal__body{
+    background-image: url(../images/modal.jpg);
+    background-size: cover;
+    color: white;
+}
+
+
 .section__div1{
     margin-top: 5%;
 }
-
 
 .section__div1 p{
     font-size: 7rem;
