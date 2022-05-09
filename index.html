@@ -61,7 +61,35 @@
         </div>
         <div class="section__div2 col-lg-6 offset-lg-3 offset-3 col-6">
             <a href="index.html">Suscribete</a>
-            <a href="index.html">Login</a>
+            <a href="index.html" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Login</a>
+        </div>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title fs-1 text-decoration-underline" id="exampleModalLabel">LOGIN</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center fs-2">
+                        <form action="">
+                            <fieldset>
+                                <legend>Iniciar Sesion</legend>
+                                <label for="usuario">Usuario (email)</label><br>
+                                <input type="email" name="usuario" required><br>
+                                <label for="password">Password</label><br>
+                                <input type="password" name="password" required><br>
+                                <a href="../index.html" class="fs-5">
+                                    <input type="button" value="Olvide mi contraseña">
+                                </a>
+                            </fieldset>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary fs-2">Cancelar</button>
+                        <button type="button" class="btn btn-primary fs-2">Ingresar</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
     <aside class="aside row">
