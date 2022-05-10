@@ -81,6 +81,15 @@ body {
   background-attachment: fixed;
   background-position: center; }
 
+.index__modal {
+  color: white;
+  background-color: #030318; }
+
+.modal__body {
+  background-image: url(../images/modal.jpg);
+  background-size: cover;
+  color: white; }
+
 .section__div1 {
   margin-top: 5%; }
 
@@ -123,7 +132,24 @@ body {
 .juego__body {
   background-color: #000000; }
 
-.juego__section {
+.raza__header {
+  color: rgba(201, 106, 51, 0.9);
+  background-color: #030318; }
+
+.raza__nav {
+  color: #050404; }
+
+.juego__raza {
+  border: solid 1px white; }
+
+.raza__card p {
+  font-size: 2.5rem;
+  color: white; }
+
+.raza__card img {
+  width: 15%; }
+
+.juego__font {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
 
 .juego__art {
@@ -228,6 +254,8 @@ body {
     font-size: 25px;
     border-bottom: solid white 1px;
     color: white; }
+    .foros__div p:hover {
+      font-weight: bold; }
 
 .foros__art {
   font-size: 3rem;
@@ -235,8 +263,8 @@ body {
   color: white; }
   .foros__art img {
     width: 150px; }
-  .foros__art p:hover {
-    font-weight: bold; }
+  .foros__art h3:hover {
+    text-shadow: 2px 2px 2px #cc6235; }
 
 .tienda {
   background-color: #1d1d1d; }

@@ -5,6 +5,17 @@
     background-position: center;
 }
 
+.index__modal{
+    color:white;
+    background-color: $color-bkg;
+}
+
+.modal__body{
+    background-image: url(../images/modal.jpg);
+    background-size: cover;
+    color:white;
+}
+
 .section__div1{
     margin-top: 5%;
 }
@@ -12,7 +23,7 @@
 .section__div1 p{
     font-size: 7rem;
     text-align: center;
-    color: #131c36;
+    color: $color-second;
     text-shadow: 1px 1px 1px white;
 } 
 
@@ -27,7 +38,7 @@
     a{
         color:rgb(250, 247, 246);
         text-shadow: 3px 3px 3px black;
-        background-color: #131c36;
+        background-color: $color-second;
         border-radius: 10px;
         border-style: double;
         width: 40%;
@@ -42,7 +53,7 @@
 }
 
 .aside{
-    background-color: #131c36;
+    background-color: $color-second;
     padding: 10px;
     h3{
         font-size: x-large;
