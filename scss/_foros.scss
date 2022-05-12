@@ -6,20 +6,19 @@
     margin-bottom: 10px;
 }
 
-.foros__cate{
+@mixin border-bkg-margin{
     border-radius: 15px;
     border: solid white 1px;
     background-color: $color-second;
-    /* margin-right: 5px; */
     margin-bottom: 10px;
 }
 
+.foros__cate{
+    @include border-bkg-margin;
+}
+
 .foros__desta{
-    border-radius: 15px;
-    border: solid white 1px;
-    background-color: $color-second;
-    /* margin-left: 5px; */
-    margin-bottom: 10px;
+    @extend .foros__cate;
 }
 
 .foros__titulo{

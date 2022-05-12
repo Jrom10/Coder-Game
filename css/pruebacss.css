@@ -1,3 +1,12 @@
+.bkg--juego {
+  background-color: #000000; }
+
+.bkg--foros {
+  background-color: rgba(0, 0, 0, 0.9); }
+
+.bkg--tienda {
+  background-color: #1d1d1d; }
+
 @font-face {
   font-family: lifecraft;
   src: url(../font/LifeCraft_Font.ttf); }
@@ -229,18 +238,10 @@ body {
 .foros__img {
   margin-bottom: 10px; }
 
-.foros__cate {
+.foros__cate, .foros__desta {
   border-radius: 15px;
   border: solid white 1px;
   background-color: #131c36;
-  /* margin-right: 5px; */
-  margin-bottom: 10px; }
-
-.foros__desta {
-  border-radius: 15px;
-  border: solid white 1px;
-  background-color: #131c36;
-  /* margin-left: 5px; */
   margin-bottom: 10px; }
 
 .foros__titulo {
@@ -370,7 +371,7 @@ body {
     font-size: 3rem; }
   .section__div2 {
     font-size: 2rem; }
-  .foros__cate img {
+  .foros__cate img, .foros__desta img {
     width: 75%; }
   .aside h3 {
     font-size: medium; }

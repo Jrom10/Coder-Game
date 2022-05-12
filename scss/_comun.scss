@@ -2,6 +2,18 @@ $color-ppal: rgba(201, 106, 51, 0.9);
 $color-bkg: #030318;
 $color-second: #131c36;
 
+$bg:(
+    juego: #000000,
+    foros: rgba(0, 0, 0, 0.9),
+    tienda: rgb(29, 29, 29),
+);
+
+@each $page,$color in $bg{
+    .bkg--#{$page}{
+        background-color: $color;
+    }
+} 
+
 @font-face{
     font-family: lifecraft;
     src: url(../font/LifeCraft_Font.ttf)
