@@ -1,3 +1,9 @@
+@each $COLOR in brown, pink, lightgreen, yellow, white, lightblue, orange, blue{
+    .#{$COLOR}{
+        color: $COLOR;
+    }
+}
+
 .juego__body{
     background-color: #000000;
 }
@@ -23,6 +29,10 @@
     img{
         width: 15%;
     }
+}
+
+.juego__icon{
+    width:25px;
 }
 
 .juego__font{ 

@@ -138,6 +138,30 @@ body {
     color: aliceblue;
     margin-right: 50px; }
 
+.brown {
+  color: brown; }
+
+.pink {
+  color: pink; }
+
+.lightgreen {
+  color: lightgreen; }
+
+.yellow {
+  color: yellow; }
+
+.white {
+  color: white; }
+
+.lightblue {
+  color: lightblue; }
+
+.orange {
+  color: orange; }
+
+.blue {
+  color: blue; }
+
 .juego__body {
   background-color: #000000; }
 
@@ -157,6 +181,9 @@ body {
 
 .raza__card img {
   width: 15%; }
+
+.juego__icon {
+  width: 25px; }
 
 .juego__font {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
@@ -353,6 +380,8 @@ body {
     font-size: 3rem; }
   .index__section {
     height: 70vh; }
+  .raza__card p {
+    font-size: 1.5rem; }
   .tienda__h5 {
     font-size: 2rem; }
   .section__art1, .section__art2, .section__art3, .section__art4 {
