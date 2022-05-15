@@ -138,28 +138,28 @@ body {
     color: aliceblue;
     margin-right: 50px; }
 
-.brown {
+.btn--brown {
   color: brown; }
 
-.pink {
+.btn--pink {
   color: pink; }
 
-.lightgreen {
+.btn--lightgreen {
   color: lightgreen; }
 
-.yellow {
+.btn--yellow {
   color: yellow; }
 
-.white {
+.btn--white {
   color: white; }
 
-.lightblue {
+.btn--lightblue {
   color: lightblue; }
 
-.orange {
+.btn--orange {
   color: orange; }
 
-.blue {
+.btn--blue {
   color: blue; }
 
 .juego__body {
@@ -210,6 +210,33 @@ body {
   .juego__p p {
     font-size: 4rem; }
 
+.btn--blue:not(.collapsed) {
+  color: blue; }
+
+.btn--red:not(.collapsed) {
+  color: red; }
+
+.btn--lightgreen:not(.collapsed) {
+  color: lightgreen; }
+
+.btn--brown:not(.collapsed) {
+  color: brown; }
+
+.btn--yellow:not(.collapsed) {
+  color: yellow; }
+
+.btn--pink:not(.collapsed) {
+  color: pink; }
+
+.btn--white:not(.collapsed) {
+  color: white; }
+
+.btn--orange:not(.collapsed) {
+  color: orange; }
+
+.btn--lightblue:not(.collapsed) {
+  color: lightblue; }
+
 .noticias__section {
   background: linear-gradient(180deg, #19315e 0%, #050404 50%, #4b2414ec 100%); }
 
@@ -258,6 +285,12 @@ body {
   color: yellow;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-align: center; }
+
+.not__card h2 {
+  font-size: 3rem; }
+
+.not__card p {
+  font-size: 2rem; }
 
 .foros {
   background-color: rgba(0, 0, 0, 0.9); }
@@ -405,4 +438,11 @@ body {
   .aside h3 {
     font-size: medium; }
   .section__div2 a {
-    width: 40%; } }
+    width: 40%; }
+  .not__car h2 {
+    font-size: 2rem; }
+  .not__car p {
+    font-size: 1.6rem; }
+  .mh {
+    height: 300px;
+    object-fit: none; } }

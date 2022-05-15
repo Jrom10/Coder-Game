@@ -8,4 +8,4 @@
 
 ## Demo
 
-Ingresar al siguiente [link](https://jrom10.github.io/Codergame/) para navegar por el proyecto.
+Ingresar al siguiente [link](https://jrom10.github.io/Coder-game/) para navegar por el proyecto.

@@ -1,5 +1,5 @@
 @each $COLOR in brown, pink, lightgreen, yellow, white, lightblue, orange, blue{
-    .#{$COLOR}{
+    .btn--#{$COLOR}{
         color: $COLOR;
     }
 }
@@ -66,3 +66,21 @@
         font-size: 4rem;
     }
 }
+
+$btn:(
+    blue: blue,
+    red: red,
+    lightgreen: lightgreen,
+    brown: brown,
+    yellow: yellow,
+    pink: pink,
+    white: white,
+    orange: orange,
+    lightblue: lightblue,
+);
+
+@each $clase,$color in $btn{
+    .btn--#{$clase}:not(.collapsed){
+        color: $color;
+    }
+} 
