@@ -313,7 +313,7 @@ body {
 .foros__div {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
   .foros__div p {
-    font-size: 25px;
+    font-size: 2rem;
     border-bottom: solid rgba(255, 255, 255, 0.308) 1px;
     color: white; }
     .foros__div p:hover {
