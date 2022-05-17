@@ -1,6 +1,5 @@
 
 .foros__img{
-    margin-bottom: 50px;
     border-bottom: solid gray 1px;
 }
 
@@ -9,6 +8,10 @@
     border: solid rgba(255, 255, 255, 0.308) 1px;
     background-color: #131c3667;
     margin-bottom: 10px;
+}
+
+.foros{
+    background-image: url(../images/foroback.webp)
 }
 
 .foros__cate{

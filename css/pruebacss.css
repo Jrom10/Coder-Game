@@ -294,8 +294,10 @@ body {
     font-size: 2rem; }
 
 .foros__img {
-  margin-bottom: 50px;
   border-bottom: solid gray 1px; }
+
+.foros {
+  background-image: url(../images/foroback.webp); }
 
 .foros__cate, .foros__desta {
   border-radius: 15px;
