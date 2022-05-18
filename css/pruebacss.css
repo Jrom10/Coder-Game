@@ -374,27 +374,11 @@ body {
 .tienda__h5 {
   font-size: 5rem; }
 
-.contacto {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto 1fr auto;
-  grid-template-areas: "head" "contacto" "foot";
-  height: 100vh; }
-
 .contacto__section {
-  background-image: radial-gradient(circle, #131c36, #060708);
-  display: flex;
-  align-items: center;
-  justify-content: center; }
+  background-image: radial-gradient(circle, #131c36, #060708); }
 
 .contacto__form {
-  width: auto;
-  border-width: 10px;
-  text-align: center;
-  margin: 5%;
-  display: flex;
-  justify-content: center;
-  border: solid grey 1px;
+  border: solid grey 5px;
   box-shadow: 1px 1px 1px #cc6235; }
 
 .contacto__div {
@@ -406,7 +390,7 @@ body {
 
 .contacto__field legend {
   font-size: 4rem;
-  color: whitesmoke; }
+  color: white; }
 
 @media (max-width: 600px) {
   .header__titulo {

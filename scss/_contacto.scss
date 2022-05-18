@@ -1,29 +1,10 @@
-.contacto{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto 1fr auto;
-    grid-template-areas: 
-    "head"
-    "contacto"
-    "foot";
-    height: 100vh;
-}
 
 .contacto__section{
     background-image: radial-gradient(circle, $color-second, rgb(6,7,8));
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .contacto__form{
-    width: auto;
-    border-width: 10px;
-    text-align: center;
-    margin: 5%;
-    display: flex;
-    justify-content: center;
-    border: solid grey 1px;
+    border: solid grey 5px;
     box-shadow:1px 1px 1px #cc6235;
 }
 
@@ -38,6 +19,6 @@
 .contacto__field{
     legend{
         font-size: 4rem;
-        color:whitesmoke;
+        color:white;
     }
 }
