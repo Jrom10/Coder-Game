@@ -238,7 +238,7 @@ body {
   color: lightblue; }
 
 .noticias__section {
-  background: linear-gradient(180deg, #19315e 0%, #050404 50%, #4b2414ec 100%); }
+  background: linear-gradient(180deg, #11193d 0%, #050404 20%, #4b2414ec 100%); }
 
 .section__art1, .section__art2, .section__art3, .section__art4 {
   background-image: url(../images/buho.jpg);
@@ -332,8 +332,7 @@ body {
   background-color: #1d1d1d; }
 
 .tienda__div2 {
-  color: white;
-  width: 100%; }
+  color: white; }
 
 .tienda__art {
   display: flex;
