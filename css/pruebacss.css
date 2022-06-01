@@ -88,7 +88,8 @@ body {
   background-image: url(../images/torre.jpg);
   background-size: cover;
   background-attachment: fixed;
-  background-position: center; }
+  background-position: center;
+  height: 100vh; }
 
 .index__modal {
   color: white;
@@ -396,7 +397,7 @@ body {
   .header__titulo {
     font-size: 3rem; }
   .index__section {
-    height: 70vh; }
+    height: 90vh; }
   .raza__card p {
     font-size: 1.5rem; }
   .tienda__h5 {
